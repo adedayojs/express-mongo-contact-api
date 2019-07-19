@@ -1,10 +1,10 @@
 const mongoose = require('mongoose');
 
 // Connect to mongo database
-mongoose
-  .connect('mongodb://localhost/playground')
-  .then(() => console.log('Connected To MongoDB'))
-  .catch(err => console.error('Counld not connect to MongoDB', err));
+// mongoose
+//   .connect('mongodb://localhost/playground')
+//   .then(() => console.log('Connected To MongoDB'))
+//   .catch(err => console.error('Counld not connect to MongoDB', err));
 
 //    Create a new schema with mongoose inbuilt method that defines how the
 //    data you want to store is going to look like.
@@ -107,6 +107,5 @@ async function removeCourse(id) {
   //  To delete many document use deleteMany()
   //  To get the deleted document use findByIdAndRemove()
 }
-
-// getCourses();
+getCourses();
 // updateCourse('5d2fd1e7f79b330949f0e0d1');
