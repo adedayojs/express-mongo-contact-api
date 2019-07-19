@@ -1,0 +1,32 @@
+Arguments: 
+  /usr/local/bin/node /Users/techkny/.npm-global/bin/yarn add mongoose
+
+PATH: 
+  /Users/techkny/.npm-global/bin:/Users/techkny/Mongodb/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/techkny/.npm-global/bin:/Users/techkny/Mongodb/bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.4.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+
+npm manifest: 
+  {
+    "name": "mongo",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

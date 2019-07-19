@@ -1,0 +1,17 @@
+{
+  "name": "mongo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.6.5"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1"
+  }
+}
